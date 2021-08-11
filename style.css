@@ -1,0 +1,49 @@
+
+.sidebar{
+    position: absolute;
+    height: 785px;
+    width: 350px;
+    left: 0px;
+    background: #008000 ;
+    text-align: left;
+    transition: 0.5;
+    margin: 0;
+    padding: 0;
+    margin-top: O;
+    
+}
+.sidebar ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    color: white;
+    text-align: left;
+    
+    line-height: 50px;
+    
+    
+
+    
+   
+}
+a:hover {
+    color: white;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.dropdown-item{
+   color:  #008000 ;
+   background: white;
+
+}
+a{
+    color:#008000 ; 
+}
+.dropdown-item{
+    color: #008000 ; 
+}
+.dropdoown-open{
+    text-align: justify;
+}

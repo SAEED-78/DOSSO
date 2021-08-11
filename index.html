@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>SCALL</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <button style="margin-left: 0;" type="button" id="sidebarCollapse"
+        class="btn btn-dark rounded rounded-circle"  onclick="btnopen()">
+        <i class="fa fa-bars"></i>
+         </button>
+    </div>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-3">
+                <nav id="mysidebar" class="sidebar">
+                    <button style="float: right;margin-top: 10px;margin-left: 50%;position: initial;" type="button" id="sidebarCollapse"
+                        class="btn btn-dark rounded rounded-circle"  onclick="btnclose()">
+                        <i class="fa fa-times"></i>
+
+                    </button>
+                    <h1 style="color: white;text-align: center;padding: 10%;">SCALL</h1>
+                    <ul>
+                        <li>
+                            <a type="button" class="" data-toggle="modal" data-target="#exampleModalLong">
+                                Accueil
+                            </a>
+                        </li>
+
+                        <li><a href="#">Candidature retenue</a></li>
+
+                        <li>
+                            <div class="dropdown-open">
+                                <a class="dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    Présentation a la candidature
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <button  class="dropdown-item " href="#">Conseil de l'ecole doctorale</button>
+                                    <button class="dropdown-item" href="#">Bureau</button>
+                                    <button class="dropdown-item" href="#">Comission des thèses</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li><a href="#">Présentation scientifique</a></li>
+
+                        <li><a href="#">Actualité</a></li>
+
+                        <li><a href="#">Candidature en ligne</a></li>
+
+
+                        <li>
+                            <div class="dropdown open">
+                                <a class="dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    Inscription
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <button class="dropdown-item" href="#">Appel a la candidature</button>
+                                    <button class="dropdown-item " href="#">Procédure d'inscription</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown-open">
+                                <a class="dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    Formation
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <button class="dropdown-item" href="#">Programme de formation D1</button>
+                                    <button class="dropdown-item" href="#">Programme de formation D1</button>
+                                    <button class="dropdown-item" href="#">Programme de formation D1</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="">Partenariat</a></li>
+
+                        <li>
+                            <div class="dropdown open">
+                                <a class="dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    Thèse
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <button class="dropdown-item" href="#">Thèses en cours</button>
+                                    <button class="dropdown-item" href="#">Comité de suivi de thèses</button>
+                                    <button class="dropdown-item" href="#">Thèses soutenues</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown open">
+                                <a class="dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown"
+                                    aria-haspopup="false" aria-expanded="false">
+                                    Textes de reglementaire
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                    <button class="dropdown-item" href="#">Règlement intérieur</button>
+                                    <button class="dropdown-item" href="#">Charte des thèses</button>
+                                    <button class="dropdown-item" href="#">Co-tutelle de thèse</button>
+                                    <button class="dropdown-item" href="#">Co-direction de thèse</button>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+            <div id="main" class="col-9">
+               
+
+                <div id="corps" class="text">
+                    ﻿ <b>
+                        <h4 style="color:#008800;margin-top:0px;text-align:center" class="mb-4"><i
+                                class="fa fa-graduation-cap" aria-hidden="true">
+                            </i>&nbsp;&nbsp;ÉCOLE DOCTORALE SOCIÉTÉS, COMMUNICATION, ARTS, LETTRES ET LANGUES
+                        </h4>
+                    </b>
+                    <p>
+                        <strong style="color:black;margin-top:0px;text-align:center;" class="mb-4">L’École doctorale
+                            Sociétés, Communication, Arts, Lettres et Langues (SCALL) fait partie des quatre (04) Écoles
+                            Doctorales de l’Université Félix Houphouët-Boigny (UFHB). Elle intervient dans les domaines
+                            des Sciences Humaines dont la philosophie et la criminologie. Elle est logée au Pôle
+                            Scientifique de Bingerville dans la banlieue est d’Abidjan. SCALL réunit, à l'étape actuelle
+                            de son évolution, huit (08) Unités de Recherche : </strong> <br />
+
+                        - &nbsp;&nbsp;<a href="index.php?page=lacil">LANGUES, CIVILISATIONS, ARTS, CINÉMA ET
+                            LITTÉRATURES (L.A.C.I.L);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=etamp">ESPACES, TERRITOIRES, AMÉNAGEMENT, MILIEUX ET
+                            POPULATIONS (E.T.A.M.P);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=cepas">COMPORTEMENT, PSYCHOPATHOLOGIE, PSYCHOLOGIE ET
+                            ANTHROPOLOGIE DE LA SANTE (C.O.P.P.C.A);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=colas">COGNITION, LANGUES, LANGAGE, SEMIOTIQUE
+                            (CO.LA.S);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=pamelchid">PATRIMOINE, ARCHEOLOGIE, MÉMOIRE, CULTURE,
+                            HISTOIRE ET IDENTITÉS (PAMECHID);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=ups">UNIVERS PHILOSOPHIQUE ET SAVOIRS (U.P.S.);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=cps">COMMUNICATION POLITIQUE ET SOCIETES
+                            (C.P.S);</a><br />
+                        - &nbsp;&nbsp;<a href="index.php?page=defi">DIDACTIQUE, EDUCATION-FORMATION ET INNOVATION
+                            (DEFI);</a><br />
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3972.3722263917543!2d-3.9045539860025382!3d5.360046437081728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sci!4v1596631130146!5m2!1sfr!2sci"
+                        width="960" height="350" frameborder="0" style="border:0;" allowfullscreen="yes"
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div style="position: fixed;" class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-header">
+                    </div>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit similique sed quod necessitatibus
+                    dolorem laborum perferendis voluptates, iure ad voluptate quos porro! In unde quos ex maxime nihil
+                    ad voluptatum!
+                    Magni sunt consequatur quod magnam consectetur porro, odio maiores optio iure qui nulla quo
+                    cupiditate ad asperiores. Ullam unde est, alias aspernatur consectetur consequuntur, corporis, omnis
+                    cum magni blanditiis laborum?
+                    Eum, modi! Quos facilis dolore, cum ratione commodi debitis exercitationem iure ipsam voluptas
+                    expedita, impedit repellat amet. Ipsam, ad. Voluptates, voluptas! Quasi voluptates id quis sint
+                    necessitatibus nulla ipsa aut.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div style="width: auto;height: 80px; background-color: gray ;"></div>
+
+
+    <div class="container mt-5 w-100%">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                        <h4>NEWLETTER</h4>
+                        <hr>
+                        <h6>Sourcrivez a notre newlette, veuillez entrer votre email</h6>
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label for=""></label>
+                                <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                                    placeholder="Entrez votre email">
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-dark btn-block" type="button" value="Envoyer">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>CONTACT</h4>
+                    <hr>
+
+                </div>
+                <div class="col-md-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolores repellat, vitae quisquam
+                    nesciunt
+                    voluptas vel porro dolore impedit a consectetur soluta cumque omnis ex perferendis ipsam itaque nam
+                    aperiam!Libero quod, deserunt recusandae repellendus magni excepturi est laboriosam totam
+                    perspiciatis
+                    eveniet, exercitationem quaerat similique quisquam incidunt expedita tempora, molestiae maiores
+                    debitis.
+                    Odio fuga, labore qui et eligendi deleniti tenetur.
+                </div>
+                <div class="col-md-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum dolores repellat, vitae quisquam
+                    nesciunt
+                    voluptas vel porro dolore impedit a consectetur soluta cumque omnis ex perferendis ipsam itaque nam
+                    aperiam!Libero quod, deserunt recusandae repellendus magni excepturi est laboriosam totam
+                    perspiciatis
+                    eveniet, exercitationem quaerat similique quisquam incidunt expedita tempora, molestiae maiores
+                    debitis.
+                    Odio fuga, labore qui et eligendi deleniti tenetur.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function btnopen() {
+           let sidebar = document.getElementById("mysidebar");
+           sidebar.style.left = 0
+           let corps = document.getElementById("corps");
+           corps.style.marginLeft = '100px'
+           
+        }
+        function btnclose() {
+           let sidebar = document.getElementById("mysidebar");
+           sidebar.style.left = '-500px'
+           let corps = document.getElementById("corps");
+           corps.style.marginLeft = '-250px'
+        }
+    </script>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
